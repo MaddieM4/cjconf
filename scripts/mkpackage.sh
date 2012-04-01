@@ -10,3 +10,5 @@ make control
 
 # Update package
 fakeroot dpkg-deb --build debian output
+fakeroot dpkg-deb --build debian
+mv debian.deb output/latest/cjconf.deb
