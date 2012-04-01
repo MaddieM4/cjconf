@@ -3,7 +3,7 @@
 # Increment release number
 RELEASE="`cat scripts/release`"
 RELEASE=$(( $RELEASE + 1 ))
-echo $RELEASE > release
+echo $RELEASE > scripts/release
 
 # Set package control information
 make control
