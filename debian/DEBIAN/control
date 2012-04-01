@@ -1,0 +1,8 @@
+Package: cjconf
+Version: 0.5-1
+Architecture: all
+Section: web
+Maintainer: Philip Horger <campadrenalin@gmail.com>
+Homepage: https://github.com/campadrenalin/cjconf
+Depends: bash, grep, python, cjdns
+Description: A set of useful utilities for configuring and running CJDNS.
